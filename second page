@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My favourite places</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 90%;
+        width: 95%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="sfs.html"
+          ><img src="RB (2).png" alt="RB"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="sfs.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="places.html">Favourite places</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="i.webp" class="card-img-top" alt="Orenburg" />
+            <div class="card-body">
+              <h5 class="card-title">Оренбург</h5>
+              <p class="card-text">
+                Административный центр Оренбургской области России и
+                Оренбургского района, составляя вместе с 10 сельскими
+                населёнными пунктами отдельное муниципальное образование «город
+                Оренбург» со статусом городского округа. Один из крупнейших
+                городов Южного Урала. Являлся административным центром
+                Оренбургской губернии, Области Оренбургских Киргизов, Тургайской
+                области, Киргизского края и Киргизской АССР (1920—1925) в
+                составе Российской империи и РСФСР.
+              </p>
+              <a
+                href="https://ru.wikipedia.org/wiki/Оренбург"
+                class="btn btn-primary"
+                target="_blank"
+                >Википедия</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="314227_original.jpg" class="card-img-top" alt="Ufa" />
+            <div class="card-body">
+              <h5 class="card-title">Уфа</h5>
+              <p class="card-text">
+                Город-миллионник в России, столица Республики Башкортостан,
+                административный центр Уфимского района, в состав которого не
+                входит и городского округа город Уфа. Центр Уфимской
+                агломерации. Входит в число крупнейших экономических, культурных
+                и научных центров Российской Федерации. Исторический центр
+                Уфимского уезда, Уфимской провинции, Уфимского наместничества,
+                Уфимского и Симбирского генерал-губернаторства, Оренбургской
+                губернии (1802—1865), Уфимской губернии и Уфимской области.
+                Расположена на Уфимском полуострове, в водоразделе рек Белой и
+                Уфы.
+              </p>
+              <a
+                href="https://ru.wikipedia.org/wiki/Уфа"
+                class="btn btn-primary"
+                target="_blank"
+                >Википедия</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="i (1).webp" class="card-img-top" alt="Kazan" />
+            <div class="card-body">
+              <h5 class="card-title">Казань</h5>
+              <p class="card-text">
+                Город в России, столица Республики Татарстан, порт на левом
+                берегу реки Волги при впадении в неё реки Казанки. Крупнейший по
+                численности населения город в Приволжском федеральном округе и
+                на реке Волге. Один из крупнейших экономических, научных,
+                образовательных, религиозных, культурных и спортивных центров
+                России. Казанский кремль входит в число объектов ВсемирногоЫ
+                наследия ЮНЕСКО. Город трудовой доблести. Исторический центр
+                Казанского ханства, Казанского уезда, Казанской губернии и
+                Татарской АССР.
+              </p>
+              <a
+                href="https://ru.wikipedia.org/wiki/Казань"
+                class="btn btn-primary"
+                target="_blank"
+                >Википедия</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="i (2).webp" class="card-img-top" alt="Rostov" />
+            <div class="card-body">
+              <h5 class="card-title">Ростов-на-Дону</h5>
+              <p class="card-text">
+                Крупнейший город на юго-западе России, административный центр
+                Южного федерального округа и Ростовской области. Город воинской
+                славы (2008). Основан по указу императрицы Елизаветы Петровны от
+                15 декабря 1749 года. Расположен на юго-востоке
+                Восточно-Европейской равнины, на обоих берегах реки Дон в 46 км
+                от места её впадения в Азовское море в 1092 км к югу от Москвы.
+              </p>
+              <a
+                href="https://ru.wikipedia.org/wiki/Ростов-на-Дону"
+                class="btn btn-primary"
+                target="_blank"
+                >Википедия</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
